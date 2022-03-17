@@ -1,6 +1,6 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	
+	color: #464646;
 	background: #F5F5F5;
 }
 
@@ -11,8 +11,15 @@ body {
 	padding: 32px 0;
 }
 
+.cabecalho img {
+	position: absolute;
+}
+
 .cabecalho h1 {
 	font-weight: 700;
+	position: absolute;
+	left: 32px;
+	top: 34.5px;
 }
 
 nav {
@@ -24,9 +31,13 @@ nav {
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;
-	font-weight: 500;
 }
-nav li:hover {
+nav a {
+	color: #464646;
+	font-weight: 500;
+	text-decoration: none;
+}
+nav a:hover {
 	color: #56CCF2;
 	text-decoration: underline;
 }
