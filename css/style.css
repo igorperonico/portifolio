@@ -50,10 +50,18 @@ nav a:hover {
 	position: static;
 	align-items: center;
 	width: 1136px;
+	height: 330px;
 	margin: 0 auto;
-	padding: 32px 0;
-
+	padding: 33px 0;
 }
+
+.foto {
+	width: 330px;
+	height: 330px;
+	border-radius: 50%;
+	float: right;
+}
+
 .apresentacao h2{
 	font-weight: bold;
 	font-size: 52px;
@@ -71,7 +79,7 @@ li a {
 
 .redes-sociais li {
 	display: inline;
-	margin: 0 32px 0 0;
+	margin: 0 48px 0 0;
 }
 
 .redes-sociais a{
@@ -87,16 +95,32 @@ li a {
 
 .redes-sociais img {
 	position: absolute;
-	top: 312px;
-
-
-}
-.foto {
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	float: right;
-	margin: 0 0 20px 0;
-	
 }
 
+.sobre-mim {
+	background: #EAF2FD;
+	padding: 64px;
+}
+
+.conteudo-sobre-mim {
+	width: 1136px;
+	margin: 0 auto;
+}
+
+.conteudo-sobre-mim h3 {
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 38px;
+}
+
+.conteudo-sobre-mim p {
+	font-family: Raleway;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	text-align: left;
+	margin: 16px 0;
+	width: 751px;
+}
