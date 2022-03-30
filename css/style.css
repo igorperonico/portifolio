@@ -129,9 +129,10 @@ li a {
 	margin: 32px 0;
 }
 
-.conteudo-skills, .conteudo-hobbies {
+.conteudo-skills, .conteudo-hobbies, .conteudo-formacao{
 	width: 1136px;
 	margin: 0 auto;
+	
 }
 
 h4 {
@@ -141,14 +142,38 @@ h4 {
 	margin: 0 0 32px 0;
 }
 
-.lista-skills, .lista-hobbies {
+.lista-skills, .lista-hobbies{
 	text-align: center;
 }
-.lista-skills li, .lista-hobbies li {
+.lista-skills li, .lista-hobbies li{
 	display: inline;
 	margin: 0 16px 0 0;
 }
 
 .hobbies{
-	margin: 88px 0;
+	margin: 88px 0 32px 0;
 }
+
+.formacao {
+	background: #EAF2FD;
+	padding: 82px 0;
+}
+
+.lista-formacao li{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 14px 32px 0;
+}
+
+.lista-formacao img {
+	width: 358px;
+}
+
+.curso {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	margin: 8px 0;
+	width: 360px;
+}
+
