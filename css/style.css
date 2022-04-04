@@ -3,7 +3,6 @@ body {
 	color: #464646;
 	background: #F5F5F5;
 }
-
 .cabecalho {
 	position: relative;
 	width: 1136px;
@@ -177,3 +176,69 @@ h4 {
 	width: 360px;
 }
 
+.projetos {
+	padding: 32px 0;
+}
+.codificador, .forca {
+	width: 1136px;
+	height: 430px;
+	margin: 0 auto;
+}
+
+.imagem-codificador {
+	float: left;
+	margin: 0 16px 0 0;
+}
+
+.informacoes-codificador{
+	display: inline-block;
+	position: relative;
+	top: 147px;
+}
+.tituloProjeto {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	margin: 8px 0;
+	width: 310px;
+}
+
+.botao-repositorio {
+	margin: 8px 16px 0 0;
+	width: 116px;
+	height: 51px;
+	background: #F5F5F5;
+	color: #2A7AE4;
+	border: 1px solid #2A7AE4;
+	box-sizing: border-box;
+	cursor: pointer;
+} 
+
+.botao-repositorio:hover{
+	background: #DFDADA;
+}
+.botao-ver-demo {
+	margin: 8px 16px 0 0;
+	width: 116px;
+	height: 51px;
+	background: #2A7AE4;
+	color: #F5F5F5;
+	border: 1px solid #F5F5F5;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.botao-ver-demo:hover{
+	background: #2060B6;
+}
+
+.imagem-forca {
+	float: right;
+	margin: 16px 0 0 16px;
+}
+
+.informacoes-forca{
+	display: inline-block;
+	position: relative;
+	top: 147px;
+}
