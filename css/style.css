@@ -212,6 +212,7 @@ h4 {
 	border: 1px solid #2A7AE4;
 	box-sizing: border-box;
 	cursor: pointer;
+	font-size: 16px;
 } 
 
 .botao-repositorio:hover{
@@ -226,6 +227,7 @@ h4 {
 	border: 1px solid #F5F5F5;
 	box-sizing: border-box;
 	cursor: pointer;
+	font-size: 16px;
 }
 
 .botao-ver-demo:hover{
@@ -241,4 +243,85 @@ h4 {
 	display: inline-block;
 	position: relative;
 	top: 147px;
+}
+
+.contato {
+	background: #EAF2FD;
+	padding: 64px;
+}
+
+
+.imagem-contato {
+	margin-top: 64px;
+}
+.conteudo-contato {
+	margin: 64px 0 0 16px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+h5 {
+	font-weight: bold;
+	font-size: 32px;
+	margin: 0 0 16px 0;
+}
+
+.input-elementos {
+	background: white;
+	width: 632px;
+	height: 40px;
+	padding: 8px 12px;
+	margin: 32px 0;
+	border-radius: 4px;
+}
+.input-elementos label {
+	color: #2A7AE4;
+	width: 100%;
+	margin: 0 0 8px 2px;
+
+}
+
+.input-padrao {
+	border: none;
+	width: 100%;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+    align-items: center;
+	align-self: stretch;
+	outline: 0;
+	color: #A2A2A2;
+}
+
+#assunto {
+	height: 100%;
+}
+
+#mensagem {
+	border-radius: 4px;
+	width: 632px;
+	height: 101px;
+	padding: 16px 12px;
+	font-family: 'Raleway', sans-serif;
+}
+.botao-mensagem{
+	margin-top: 32px;
+	width: 165px;
+	height: 51px;
+	background: #2A7AE4;
+	color: #F5F5F5;
+	border: 1px solid #F5F5F5;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.botao-mensagem:hover {
+	background: #2060B6;
+}
+footer{
+	background-color: white;
+	text-align: center;
+	padding: 32px;
 }
