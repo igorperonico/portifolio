@@ -1,0 +1,10 @@
+.sobre-mim {
+    background: #EAF2FD;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.sobre-mim__descricao {
+    width: 66%;
+    margin: 1rem 0 1rem 0 ;
+}

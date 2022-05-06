@@ -1,0 +1,29 @@
+.formacao {
+    background: #EAF2FD;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.formacao__titulo {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.formacao__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.formacao__item {
+    margin-bottom: 1rem;
+    margin-right: calc(33%-1rem);
+    width: 33%;
+}
+
+.formacao__curso {
+    font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+    margin-bottom: 0.5rem;
+}

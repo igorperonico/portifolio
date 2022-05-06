@@ -1,0 +1,18 @@
+.skills {
+    padding-bottom: 2rem; 
+    padding-top: 2rem;
+}
+
+.skills__titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skills__lista {
+    display: flex;
+    justify-content: center;
+}
+
+.skills__item {
+    margin-right: 1rem;
+}

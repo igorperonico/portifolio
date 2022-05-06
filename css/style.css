@@ -3,6 +3,18 @@ body {
 	color: #464646;
 	background: #F5F5F5;
 }
+
+.container {
+	padding: 0 5rem;
+}
+
+.titulo {
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 2.375rem;
+}
+/*
 .cabecalho {
 	position: relative;
 	width: 1136px;

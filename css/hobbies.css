@@ -1,0 +1,18 @@
+.hobbies {
+    padding-bottom: 2rem; 
+    padding-top: 2rem;
+}
+
+.hobbies__titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hobbies__lista {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies__item {
+    margin-right: 1rem;
+}

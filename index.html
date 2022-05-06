@@ -4,165 +4,160 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Portifólio</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/cabecalho.css">
+		<link rel="stylesheet" type="text/css" href="css/apresentacao.css">
+		<link rel="stylesheet" type="text/css" href="css/sobre-mim.css">
+		<link rel="stylesheet" type="text/css" href="css/skills.css">
+		<link rel="stylesheet" type="text/css" href="css/hobbies.css">
+		<link rel="stylesheet" type="text/css" href="css/formacao.css">
+		<link rel="stylesheet" type="text/css" href="css/projetos.css">
+		<link rel="stylesheet" type="text/css" href="css/contato.css">
+		<link rel="stylesheet" type="text/css" href="css/rodape.css">
 	</head>
 	<body>
-		<header>
-			<div class="cabecalho">
-				<img src="img/vector.png">
-				<h1>Igor Perônico</h1>
-				<nav>
-					<ul>
-						<li><a href="#sobre-mim">Sobre mim</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#hobbies">Hobbies</a></li>
-						<li><a href="#formacao">Formação</a></li>
-						<li><a href="#projetos">Projetos</a></li>
-						<li id="email">igormtpr@gmail.com</li>
-					</ul>
-				</nav>
-			</div>		
+		<header class="cabecalho container">
+			<div class="cabecalho__logo">
+				<img class="cabecalho__imagem" src="img/vector.png">
+				<h1 class="cabecalho__nome">Igor Perônico</h1>
+			</div>
+			<nav class="menu">
+				<ul class="menu__lista">
+					<li class="menu__item"><a class="menu__link" href="#sobre-mim">Sobre mim</a></li>
+					<li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+					<li class="menu__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+					<li class="menu__item"><a class="menu__link" href="#formacao">Formação</a></li>
+					<li class="menu__item"><a class="menu__link" href="#projetos">Projetos</a></li>
+					<li class="menu__item"><a class="menu__link menu__link--weight" href="mailto:igormtpr@gmail.com ">igormtpr@gmail.com</a></li>
+				</ul>
+			</nav>		
 		</header>
 		<main>
-			<section class="apresentacao">
-				<img class="foto" src="img/igor.jpg" alt="Uma foto de Igor Perônico">
-				<h2>Olá, meu nome é Igor Perônico e construo páginas web</h2>
-				<p>Sou formado em Engenharia Mecânica, e no momento sou graduando em Análise e Desenvolvimento de Sistemas e estou participando do projeto Oracle ONE na Alura</p>
-				<div class="redes-sociais">
-					<ul>
-						<li><a href="https://github.com/igorperonico" target="_blank">Github<img src="img/arrow.png"></a></li>
-						<li><a href="https://www.linkedin.com/in/igorperonico/" target="_blank">Linkedin<img src="img/arrow.png"></a></li>
-						<li><a href="https://www.instagram.com/igorperonico/" target="_blank">Instagram<img src="img/arrow.png"></a></li>
-						<li><a href="" target="_blank">Currículo<img src="img/arrow.png"></a></li>
+			<section class="apresentacao container">
+				<div class="apresentacao__conteudo">
+					<h2 class="apresentacao__titulo">Olá, meu nome é Igor Perônico e construo páginas web</h2>
+					<p class="apresentacao__descricao">Sou formado em Engenharia Mecânica, e no momento sou graduando em Análise e Desenvolvimento de Sistemas e estou participando do projeto Oracle ONE na Alura</p>
+					<nav class="redes-sociais">
+						<ul class="redes-sociais__lista">
+							<li class="redes-sociais__item"><a class="redes-sociais__link" href="https://github.com/igorperonico" target="_blank">Github<img src="img/arrow.png"></a></li>
+							<li class="redes-sociais__item"><a class="redes-sociais__link" href="https://www.linkedin.com/in/igorperonico/" target="_blank">Linkedin<img src="img/arrow.png"></a></li>
+							<li class="redes-sociais__item"><a class="redes-sociais__link" href="https://www.instagram.com/igorperonico/" target="_blank">Instagram<img src="img/arrow.png"></a></li>
+							<li class="redes-sociais__item"><a class="redes-sociais__link" href="" target="_blank">Currículo<img src="img/arrow.png"></a></li>
+						</ul>
+					</nav>
+				</div>
+				<img class="apresentacao__foto" src="img/igor.jpg" alt="Uma foto de Igor Perônico">
+			</section>
+			<section class="sobre-mim container" id="sobre-mim">
+				<div class="sobre-mim__conteudo">
+					<h3 class="sobre-mim__titulo titulo">Sobre mim</h3>
+					<p class="sobre-mim__descricao">Meu nome é Igor Monteiro Perônico, tenho 29 anos e moro na cidade de Patos no interior da Paraíba. Sou um cara que gosta muito de aprender, leio muitos livros, adoro esportes, principalmente o futebol, e também gosto muito de games.  </p>
+					<p class="sobre-mim__descricao"> Sou formado em Engenharia Mecânica, mas no momento estou em transição de área migrando para a tecnologia de informação. Sou graduando em Análise e Desenvolvimento de Sistemas, cursando o 1º semestre. Atualmente estou participando da trilha de Front End do projeto Oracle ONE na Alura aprendendo as seguintes stacks: HTML 5, CSS 3 e JavaScript.</p>
+				</div>
+			</section>
+			<section class="skills container" id="skills">
+				<div class="skills__conteudo">
+					<h4 class="skills__titulo titulo">Skills</h4>
+					<ul class="skills__lista">
+						<li class="skills__item"><img class="skills__imagem" src="img/skill-javascript.png"></li>
+						<li class="skills__item"><img class="skills__imagem" src="img/skill-html.png"></li>
+						<li class="skills__item"><img class="skills__imagem" src="img/skill-css.png"></li>
 					</ul>
 				</div>
 			</section>
-			<section class="sobre-mim" id="sobre-mim">
-				<div class="conteudo-sobre-mim">
-					<h3>Sobre mim</h3>
-					<p>Meu nome é Igor Monteiro Perônico, tenho 28 anos e moro na cidade de Patos no interior da Paraíba. Sou um cara que gosta muito de aprender, leio muitos livros, adoro esportes, principalmente o futebol, e também gosto muito de games.  </p>
-					<p> Sou formado em Engenharia Mecânica, mas no momento estou em transição de área migrando para a tecnologia de informação. Sou graduando em Análise e Desenvolvimento de Sistemas, cursando o 1º semestre. Atualmente estou participando da trilha de Front End do projeto Oracle ONE na Alura aprendendo as seguintes stacks: HTML 5, CSS 3 e JavaScript.</p>
-				</div>
-			</section>
-			<section class="skills" id="skills">
-				<div class="conteudo-skills">
-					<h4>Skills</h4>
-					<ul class="lista-skills">
-						<li>
-							<img src="img/skill-html.png">
-						</li>
-						<li>
-							<img src="img/skill-javascript.png">
-						</li>
-						<li>
-							<img src="img/skill-css.png">
-						</li>
+			<section class="hobbies container" id="hobbies">
+				<div class="hobbies__conteudo">
+					<h4 class="hobbies__titulo titulo">Hobbies</h4>
+					<ul class="hobbies__lista">
+						<li class="hobbies__item"><img class="hobbies__imagem" src="img/hobbies-games.png"></li>
+						<li class="hobbies__item"><img class="hobbies__imagem" src="img/hobbies-musica.png"></li>
+						<li class="hobbies__item"><img class="hobbies__imagem" src="img/hobbies-filmes.png"></li>
+						<li class="hobbies__item"><img class="hobbies__imagem" src="img/hobbies-livros.png"></li>
+						<li class="hobbies__item"><img class="hobbies__imagem" src="img/hobbies-futebol.png"></li>
 					</ul>
 				</div>
 			</section>
-			<section class="hobbies" id="hobbies">
-				<div class="conteudo-hobbies">
-					<h4>Hobbies</h4>
-					<ul class="lista-hobbies">
-						<li>
-							<img src="img/hobbies-games.png">
+			<section class="formacao container" id="formacao">
+				<div class="formacao__conteudo">
+					<h4 class="formacao__titulo titulo">Formação Acadêmica</h4>
+					<ul class="formacao__lista">
+						<li class="formacao__item">
+							<img class="formacao__imagem" src="img/experiencia-engenharia.png">
+							<p class="formacao__curso">Engenharia Mecânica</p>
+							<p class="formacao__ano-instituicao">2020 - UFPB</p>
 						</li>
-						<li>
-							<img src="img/hobbies-musica.png">
+						<li class="formacao__item">
+							<img class="formacao__imagem" src="img/experiencia-ads.png">
+							<p class="formacao__curso">Análise e Desenvolvimento de Sistemas</p>
+							<p class="formacao__ano-instituicao">Em andamento - Faculdade Descomplica</p>
 						</li>
-						<li>
-							<img src="img/hobbies-filmes.png">
+						<li class="formacao__item">
+							<img class="formacao__imagem" src="img/experiencia-alura.png">
+							<p class="formacao__curso">Iniciante em Programação</p>
+							<p class="formacao__ano-instituicao">2022 - Alura/ONE</p>
 						</li>
-						<li>
-							<img src="img/hobbies-livros.png">
-						</li>
-						<li>
-							<img src="img/hobbies-futebol.png">
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="formacao" id="formacao">
-				<div class="conteudo-formacao">
-					<h4>Formação Acadêmica</h4>
-					<ul class="lista-formacao">
-						<li>
-							<img src="img/experiencia-engenharia.png">
-							<p class="curso">Engenharia Mecânica</p>
-							<p class="ano-instituicao">2020 - UFPB</p>
-						</li>
-						<li>
-							<img src="img/experiencia-ads.png">
-							<p class="curso">Análise e Desenvolvimento de Sistemas</p>
-							<p class="ano-instituicao">Em andamento - Faculdade Descomplica</p>
-						</li>
-						<li>
-							<img src="img/experiencia-alura.png">
-							<p class="curso">Iniciante em Programação</p>
-							<p class="ano-instituicao">2022 - Alura/ONE</p>
-						</li>
-						<li>
-							<img src="img/experiencia-alura.png">
-							<p class="curso">Formação Front-End</p>
-							<p class="ano-instituicao">Em andamento - Alura/ONE</p>
+						<li class="formacao__item">
+							<img class="formacao__imagem" src="img/experiencia-alura.png">
+							<p class="formacao__curso">Formação Front-End</p>
+							<p class="formacao__ano-instituicao">Em andamento - Alura/ONE</p>
 						</li>
 				</div>
 			</section>
-			<section class="projetos" id="projetos">
-				<h4>Experiência Profissional</h4>
-				<div class="codificador">
-					<img class="imagem-codificador" src="img/projetos-codificador.png">
-					<div class="informacoes-codificador">
-						<p class="tituloProjeto">Decodificador de texto</p>
-						<p>Challenge Alura Codificador</p>
-						<a href="https://github.com/igorperonico/codificador-text" target="_blank"><button class="botao-repositorio" id="repositorio" >Repositório</button></a>
-						<a href="https://igorperonico.github.io/codificador-text/" target="_blank"><button class="botao-ver-demo" id="ver-demo">Ver demo</button></a>
+			<section class="projetos container" id="projetos">
+				<h4 class="projetos__titulo titulo">Experiência Profissional</h4>
+				<div class="projetos__codificador">
+					<img class="projetos__imagem" src="img/projetos-codificador.png">
+					<div class="projetos__informacoes--codificador">
+						<p class="projetos__informações___titulo">Decodificador de texto</p>
+						<p class="projetos__informações___subtitulo">Challenge Alura Codificador</p>
+						<a href="https://github.com/igorperonico/codificador-text" target="_blank"><button class="projetos__botao-repositorio" id="repositorio" >Repositório</button></a>
+						<a href="https://igorperonico.github.io/codificador-text/" target="_blank"><button class="projetos__botao-ver-demo" id="ver-demo">Ver demo</button></a>
 					</div>	
 				</div>
 
-				<div class="forca">
-					<div class="informacoes-forca">
-						<p class="tituloProjeto">Jogo criado com HTML, CSS e JavaScript</p>
-						<p>Challenge Oracle</p>
-						<a href="https://github.com/igorperonico/jogo-da-forca" target="_blank"><button class="botao-repositorio" id="repositorio" >Repositório</button></a>
-						<a href="https://igorperonico.github.io/jogo-da-forca/" target="_blank"><button class="botao-ver-demo" id="ver-demo">Ver demo</button></a>
+				<div class="projetos__forca">
+					<div class="projetos__informacoes--forca">
+						<p class="projetos__informações___titulo">Jogo criado com HTML, CSS e JavaScript</p>
+						<p class="projetos__informações___subtitulo">Challenge Oracle</p>
+						<a href="https://github.com/igorperonico/jogo-da-forca" target="_blank"><button class="projetos__botao-repositorio" id="repositorio" >Repositório</button></a>
+						<a href="https://igorperonico.github.io/jogo-da-forca/" target="_blank"><button class="projetos__botao-ver-demo" id="ver-demo">Ver demo</button></a>
 					</div>
-					<img class="imagem-forca" src="img/projetos-forca.png">
+					<img class="projeto__imagem" src="img/projetos-forca.png">
 				</div>
 			</section>
-			<section class="contato" id="contato">
-				<img class="imagem-contato" src="img/foto-contato.png">	
-				<div class="conteudo-contato">
-					<h5>Contato</h5>	
-					<p>Quer entrar em contato comigo?<br>Preencha o formulário abaixo e entrarei em contato o mais rápido possível</p>	
+			<section class="contato container" id="contato">
+				<img class="contato__imagem" src="img/foto-contato.png">	
+				<div class="contato__conteudo">
+					<h5 class="contato__titulo titulo">Contato</h5>	
+					<p class="contato__texto">Quer entrar em contato comigo?<br>Preencha o formulário abaixo e entrarei em contato o mais rápido possível</p>	
 						
-					<form>
-						<div class="input-elementos">
-							<label for="nome" >Nome
-								<input type="text" id="nome" class="input-padrao" placeholder="Digite seu Nome"required>
+					<form class="formulario">
+						<div class="formulario__elemento">
+							<label class="formulario__label" for="nome" >Nome
+								<input type="text" id="nome" class="formulario__input-padrao" placeholder="Digite seu Nome"required>
 							</label>
 						</div>
-						<div class="input-elementos">	
-							<label for="email">E-mail
-								<input type="email" id="email-formulário" class="input-padrao" required placeholder="seuemail@dominio.com">
+						<div class="formulario__elemento">	
+							<label class="formulario__label" for="email">E-mail
+								<input type="email" id="email-formulário" class="formulario__input-padrao" required placeholder="seuemail@dominio.com">
 							</label>
 						</div>
-						<div class="input-elementos">
-							<input type="text" id="assunto" class="input-padrao" required placeholder="Assunto">
+						<div class="formulario__elemento">
+							<input type="text" id="assunto" class="formulario__input-padrao formulario__input-padrao--altura" required placeholder="Assunto">
 						</div>
-						<div>
-							<textarea id="mensagem" maxlength="500" class="input-padrao" required placeholder="Mensagem"></textarea>
+						<div class="formulario__elemento-textarea">
+							<textarea id="mensagem" maxlength="500" class="formulario__input-padrao formulario__input-padrao--mensagem" required placeholder="Mensagem"></textarea>
 						</div>
-						<button class="botao-mensagem" id="enviar-mensagem">Enviar Mensagem</button></a>
+						<button class="formulario__botao-mensagem" id="enviar-mensagem">Enviar Mensagem</button></a>
 					</form>
 				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="rodape">
 			<p>&copy; 2022 - Todos os direitos reservados - Igor Monteiro</p>
 		</footer>
 	</body>

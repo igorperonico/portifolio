@@ -1,0 +1,47 @@
+.apresentacao {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.apresentacao__conteudo {
+    margin-top: 2rem;
+}
+
+.apresentacao__titulo {
+	font-size: 3.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.apresentacao__descricao {
+    font-weight: 500;
+	font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+}
+
+.redes-sociais__lista {
+    display: flex;
+}
+
+.redes-sociais__item {
+    align-items: center;
+    display: flex;
+    margin-right: 2rem;
+}
+
+.redes-sociais__link {
+    color: #464646;
+    display: flex;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.redes-sociais__link:hover {
+    border-bottom: 2px solid #0073e6;
+}
+
+.apresentacao__foto {
+    width: 330px;
+	height: 330px;
+	border-radius: 50%;
+}
