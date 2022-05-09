@@ -1,7 +1,6 @@
 .cabecalho {
     align-items: center;
     display: flex;
-    justify-content: space-between;
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
@@ -26,14 +25,42 @@
 
 .menu__link {
     color: #464646;
-	font-weight: 500;
 	text-decoration: none;
-}
-
-.menu__link--weight {
-    font-weight: 700;
 }
 
 .menu__link:hover {
     border-bottom: 2px solid #0073e6;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        justify-content: space-between;
+    }
+
+    .menu__link {
+        display: none;
+    }
+
+    .menu__link--email {
+        display: block;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu__link--email {
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .menu__link {
+        display: flex;
+        font-weight: 500;
+    }
+
+    .menu__link--email {
+        font-weight: 700;
+    }
+    
 }

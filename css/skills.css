@@ -10,9 +10,11 @@
 
 .skills__lista {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .skills__item {
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }

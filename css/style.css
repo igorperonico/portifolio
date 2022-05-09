@@ -3,16 +3,32 @@ body {
 	color: #464646;
 	background: #F5F5F5;
 }
-
-.container {
-	padding: 0 5rem;
-}
-
 .titulo {
 	font-size: 2rem;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 2.375rem;
+}
+
+@media screen and (min-width: 0) {
+    .container {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 }
 /*
 .cabecalho {

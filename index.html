@@ -3,6 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Portifólio</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +33,7 @@
 					<li class="menu__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
 					<li class="menu__item"><a class="menu__link" href="#formacao">Formação</a></li>
 					<li class="menu__item"><a class="menu__link" href="#projetos">Projetos</a></li>
-					<li class="menu__item"><a class="menu__link menu__link--weight" href="mailto:igormtpr@gmail.com ">igormtpr@gmail.com</a></li>
+					<li class="menu__item"><a class="menu__link menu__link--email" href="mailto:igormtpr@gmail.com ">igormtpr@gmail.com</a></li>
 				</ul>
 			</nav>		
 		</header>
@@ -126,7 +127,7 @@
 						<a href="https://github.com/igorperonico/jogo-da-forca" target="_blank"><button class="projetos__botao-repositorio" id="repositorio" >Repositório</button></a>
 						<a href="https://igorperonico.github.io/jogo-da-forca/" target="_blank"><button class="projetos__botao-ver-demo" id="ver-demo">Ver demo</button></a>
 					</div>
-					<img class="projeto__imagem" src="img/projetos-forca.png">
+					<img class="projetos__imagem" src="img/projetos-forca.png">
 				</div>
 			</section>
 			<section class="contato container" id="contato">
@@ -150,7 +151,7 @@
 							<input type="text" id="assunto" class="formulario__input-padrao formulario__input-padrao--altura" required placeholder="Assunto">
 						</div>
 						<div class="formulario__elemento-textarea">
-							<textarea id="mensagem" maxlength="500" class="formulario__input-padrao formulario__input-padrao--mensagem" required placeholder="Mensagem"></textarea>
+							<textarea id="mensagem" cols="30" rows="5" maxlength="300" class="formulario__input-padrao formulario__input-padrao--mensagem" required placeholder="Mensagem"></textarea>
 						</div>
 						<button class="formulario__botao-mensagem" id="enviar-mensagem">Enviar Mensagem</button></a>
 					</form>
